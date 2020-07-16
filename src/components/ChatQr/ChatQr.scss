@@ -1,0 +1,77 @@
+@import '../../../scss/estilos.scss';
+.fab-container1 {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 88;
+    cursor: pointer;
+    .fab-icon-holder {
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        background: #bcbe2e;
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+        &:hover {
+            opacity: 0.8;
+        }
+        #globo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            font-size: 25px;
+            margin-left: 12px;
+            color: $blanco;
+        }
+        #globo1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            font-size: 25px;
+            margin-left: 15px;
+            color: $blanco;
+        }
+        #fab {
+            width: 60px;
+            height: 60px;
+            background-color: $fondoRojo;
+        }
+    }
+    .fab-options {
+        list-style: none;
+        margin: 0;
+        position: absolute;
+        bottom: 70PX;
+        right: 0;
+        opacity: 0;
+        li {
+            display: flex;
+            justify-content: flex-end;
+            padding: 5px;
+            .fab-label {
+                padding: 2 px 5px;
+                align-self: center;
+                user-select: none;
+                white-space: nowrap;
+                border-radius: 3px;
+                font-size: 16px;
+                background: #666666;
+                color: #ffffff;
+                box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+                margin-right: 10px;
+            }
+        }
+    }
+    #fab:hover+.fab-options,
+    .fab-options:hover {
+        opacity: 1;
+    }
+    #messenger {
+        background-color: #0078FF;
+        ;
+    }
+    #what {
+        background-color: #4AC959;
+    }
+}

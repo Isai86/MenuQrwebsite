@@ -1,0 +1,67 @@
+@import '../../scss/estilos.scss';
+.bannerQr {
+    width: 100%;
+    height: 90vh;
+    background-image: url('../../img/jpg/pizza.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    .container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        color: $blanco;
+        transform: translate(-50%, -50%);
+        overflow: hidden;
+        text-align: center;
+        font-weight: 700;
+        text-transform: uppercase;
+        h1 {
+            font-family: $SubtituloQr;
+            letter-spacing: 2px;
+            margin-top: 6px;
+            span {
+                border: 10px solid $blanco;
+                padding: 10px 14px;
+                display: inline-block;
+            }
+        }
+        .des {
+            margin: 20px;
+            display: block;
+            font-size: 26px;
+            text-shadow: 0 0 10px black;
+            font-family: $Qrtitulo;
+            letter-spacing: 2px;
+            &:before {
+                content: '';
+                animation: animate1 infinite 12s;
+            }
+        }
+        @keyframes animate1 {
+            0% {
+                content: 'Menú digital seguro e higiénico'
+            }
+            50% {
+                content: 'Totalmente escalable e interactivo'
+            }
+            100% {
+                content: 'Evita contagios por contactos'
+            }
+        }
+        a {
+            color: #313131;
+            padding: 10px 24px;
+            text-decoration: none;
+            background: #f1f1f1;
+            border-radius: 8px;
+            font-size: 20px;
+            transition: 0.5s all;
+            font-weight: bold;
+            font-family: $general;
+            &:hover {
+                background: #bcbe2e;
+            }
+        }
+    }
+}

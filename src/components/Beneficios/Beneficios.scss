@@ -1,0 +1,84 @@
+@import '../../scss/estilos.scss';
+.beneficios {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-image: linear-gradient( rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../../img/jpg/fondoBlur.jpg');
+    background-size: cover;
+    background-position: center;
+    .box {
+        position: relative;
+        max-width: 1100px;
+        padding: 50px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+        overflow: hidden;
+        color: #fff;
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .media {
+            margin-top: 10px;
+            svg {
+                width: 60px;
+                height: 60px;
+                fill: $blanco;
+                margin-right: 30px;
+                margin-top: 5px;
+            }
+        }
+    }
+}
+
+@media (max-width: $tablet1) {
+    .beneficios {
+        height: 100vh;
+        .box {
+            max-width: 800px;
+        }
+    }
+}
+
+@media (max-width: $tablet) {
+    .beneficios {
+        height: 120vh;
+        .box {
+            max-width: 600px;
+        }
+    }
+}
+
+@media (max-width: $tablets) {
+    .beneficios {
+        height: 150vh;
+        .box {
+            max-width: 450px;
+            .media {
+                svg {
+                    margin-top: 50px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: $movil) {
+    .beneficios {
+        height: 200vh;
+        .box {
+            .media {
+                svg {
+                    margin-top: 50px;
+                }
+                p {
+                    text-align: justify;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}

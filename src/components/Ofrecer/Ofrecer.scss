@@ -1,0 +1,161 @@
+@import '../../scss/estilos.scss';
+.oferta {
+    padding-top: 50px;
+    .row {
+        .texto {
+            .imagensvg {
+                svg {
+                    width: 70px;
+                    height: 70px;
+                    fill: #bcbe2e;
+                    margin-top: 30px;
+                }
+            }
+            .descripcion {
+                p {
+                    font-size: 20px;
+                    margin-top: 30px;
+                }
+                span {
+                    font-weight: bold;
+                }
+            }
+        }
+        .imagen2 {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: $tablet1) {
+    .oferta {
+        .imagen {
+            img {
+                width: 400px;
+                margin-top: 135px;
+            }
+        }
+    }
+}
+
+@media (max-width: $tablet) {
+    .oferta {
+        .row {
+            align-items: center;
+            align-content: center;
+            .texto {
+                .imagensvg {
+                    display: flex;
+                    align-items: center;
+                    align-content: center;
+                    svg {
+                        align-items: center;
+                        display: flex;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: $tablets) {
+    .oferta {
+        .row {
+            align-items: center;
+            align-content: center;
+            .imagen {
+                display: none;
+            }
+            .imagen2 {
+                display: block;
+                img {
+                    margin-left: 70px;
+                    width: 400px;
+                    margin-top: 70px;
+                }
+            }
+            .texto {
+                .imagensvg {
+                    svg {
+                        align-items: center;
+                        display: flex;
+                    }
+                }
+                .descripcion {
+                    p {
+                        text-align: center;
+                        font-size: 15px;
+                        margin-top: -30px;
+                    }
+                    span {
+                        font-weight: bold;
+                    }
+                }
+                h1 {
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: $tablets) {
+    .oferta {
+        .row {
+            align-items: center;
+            align-content: center;
+            justify-content: center;
+            .imagen {
+                display: none;
+            }
+            .imagen2 {
+                display: block;
+                img {
+                    margin-left: 120px;
+                    width: 300px;
+                    margin-top: 70px;
+                }
+            }
+            .texto {
+                align-items: center;
+                align-content: center;
+                justify-content: center;
+                .descripcion {
+                    p {
+                        text-align: center;
+                        font-size: 15px;
+                        margin-top: 30px;
+                    }
+                    span {
+                        font-weight: bold;
+                    }
+                }
+                h1 {
+                    text-align: center;
+                }
+                .imagensvg {
+                    display: flex;
+                    align-items: center;
+                    align-content: center;
+                    svg {
+                        align-items: center;
+                        display: inline;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: $movil) {
+    .oferta {
+        .row {
+            .imagen2 {
+                display: block;
+                img {
+                    margin-left: 50px;
+                }
+            }
+        }
+    }
+}

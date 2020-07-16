@@ -1,0 +1,54 @@
+@import '../../scss/estilos.scss';
+.preciosQr {
+    padding-bottom: 80px;
+    h1 {
+        padding-top: 80px;
+        text-align: center;
+    }
+    .border {
+        display: block;
+        margin: auto;
+        width: 200px;
+        height: 3px;
+        background-color: #bcbe2e;
+    }
+    p {
+        text-align: center;
+        margin-top: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .card-deck {
+        padding: 30px;
+        .card {
+            border-color: #bcbe2e;
+            border-radius: 10px;
+            align-items: center;
+            align-content: center;
+            display: flex;
+            img {
+                margin-top: 20px;
+                width: 150px;
+                height: 150px;
+            }
+            .card-body {
+                .card-title {
+                    font-size: 23px;
+                    text-align: center;
+                    color: #bcbe2e;
+                    font-weight: bold;
+                }
+                .card-text {
+                    h2 {
+                        text-align: center;
+                    }
+                    li {
+                        padding-top: 10px;
+                        font-weight: bold;
+                        text-align: left;
+                    }
+                }
+            }
+        }
+    }
+}
