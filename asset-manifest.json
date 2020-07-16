@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/MenuQrwebsite/static/css/main.47cf5660.chunk.css",
+    "main.js": "/MenuQrwebsite/static/js/main.ab220550.chunk.js",
+    "main.js.map": "/MenuQrwebsite/static/js/main.ab220550.chunk.js.map",
+    "runtime-main.js": "/MenuQrwebsite/static/js/runtime-main.2d13dae5.js",
+    "runtime-main.js.map": "/MenuQrwebsite/static/js/runtime-main.2d13dae5.js.map",
+    "static/js/2.9b2a552c.chunk.js": "/MenuQrwebsite/static/js/2.9b2a552c.chunk.js",
+    "static/js/2.9b2a552c.chunk.js.map": "/MenuQrwebsite/static/js/2.9b2a552c.chunk.js.map",
+    "index.html": "/MenuQrwebsite/index.html",
+    "precache-manifest.4b33a44b703a528889398f9f79524e33.js": "/MenuQrwebsite/precache-manifest.4b33a44b703a528889398f9f79524e33.js",
+    "service-worker.js": "/MenuQrwebsite/service-worker.js",
+    "static/css/main.47cf5660.chunk.css.map": "/MenuQrwebsite/static/css/main.47cf5660.chunk.css.map",
+    "static/js/2.9b2a552c.chunk.js.LICENSE.txt": "/MenuQrwebsite/static/js/2.9b2a552c.chunk.js.LICENSE.txt",
+    "static/media/chef.435521e8.svg": "/MenuQrwebsite/static/media/chef.435521e8.svg",
+    "static/media/clock.041891e0.svg": "/MenuQrwebsite/static/media/clock.041891e0.svg",
+    "static/media/Beneficios.scss": "/MenuQrwebsite/static/media/fondoBlur.e83db8f1.jpg",
+    "static/media/hand.792612b1.svg": "/MenuQrwebsite/static/media/hand.792612b1.svg",
+    "static/media/improvement.6150ad2f.svg": "/MenuQrwebsite/static/media/improvement.6150ad2f.svg",
+    "static/media/logo.svg": "/MenuQrwebsite/static/media/logo.5d5d9eef.svg",
+    "static/media/mdigital.beb09550.svg": "/MenuQrwebsite/static/media/mdigital.beb09550.svg",
+    "static/media/menus1.png": "/MenuQrwebsite/static/media/menus1.5be51a74.png",
+    "static/media/BannerQr.scss": "/MenuQrwebsite/static/media/pizza.7260d761.jpg",
+    "static/media/plant.be2e38ac.svg": "/MenuQrwebsite/static/media/plant.be2e38ac.svg",
+    "static/media/precaution.214a7b23.svg": "/MenuQrwebsite/static/media/precaution.214a7b23.svg",
+    "static/media/qr.89b2d184.svg": "/MenuQrwebsite/static/media/qr.89b2d184.svg",
+    "static/media/star.5e098af9.svg": "/MenuQrwebsite/static/media/star.5e098af9.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2d13dae5.js",
+    "static/js/2.9b2a552c.chunk.js",
+    "static/css/main.47cf5660.chunk.css",
+    "static/js/main.ab220550.chunk.js"
+  ]
+}
